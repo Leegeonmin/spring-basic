@@ -12,7 +12,7 @@ public class OrderServiceImpl implements  OrderService{
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         _memberRepository = memberRepository;
         _discountPolicy = discountPolicy;
-    }
+    } 
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
