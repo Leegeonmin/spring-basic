@@ -28,9 +28,9 @@ public class OrderServiceImpl implements  OrderService{
 //    public void setMemberRepository(MemberRepository memberRepository){this._memberRepository=memberRepository;}
 //    @Autowired
 //    public void setDiscountPolicy(DiscountPolicy discountPolicy){this._discountPolicy=discountPolicy;}
-    public MemberRepository getMemberRepository(){
-        return this._memberRepository;
-    }
+//    public MemberRepository getMemberRepository(){
+//        return this._memberRepository;
+//    }
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
