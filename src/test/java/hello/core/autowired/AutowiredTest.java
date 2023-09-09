@@ -6,14 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.lang.Nullable;
-
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 public class AutowiredTest {
     @Test
     void AutowiredOption(){
-        ApplicationContext ac = new AnnotationConfigApplicationContext(TestBean.class);
+        new AnnotationConfigApplicationContext(TestBean.class);
 
     }
 
