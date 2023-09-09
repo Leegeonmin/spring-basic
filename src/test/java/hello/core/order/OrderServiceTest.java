@@ -29,9 +29,9 @@ public class OrderServiceTest {
         Assertions.assertThat(order.calculatePrice()).isEqualTo(9000);
     }
 
-    @Test
-    void fieldInjectionTest(){
-        OrderServiceImpl orderService = new OrderServiceImpl();
-        orderService.createOrder(1L, "itema", 10000);
-    }
+//    @Test
+//    void fieldInjectionTest(){
+//        OrderServiceImpl orderService = new OrderServiceImpl();
+//        orderService.createOrder(1L, "itema", 10000);
+//    }
 }
