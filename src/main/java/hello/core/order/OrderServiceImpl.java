@@ -21,7 +21,7 @@ public class OrderServiceImpl implements  OrderService{
     
     // 필드명을 매칭시켜주면 같은 타입이 Component로 스프링빈에 등록되어도 필드명으로 매칭시켜준다
     @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository,  DiscountPolicy discountPolicy) {
         _memberRepository = memberRepository;
         _discountPolicy = discountPolicy;
     }
